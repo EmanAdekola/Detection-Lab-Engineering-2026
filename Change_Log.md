@@ -10,3 +10,8 @@
 - Server name for Ubuntu 26.04 is wazuh-manager
 - Completed adding of Three VMs into VMware WorkStation Pro
 - Kali VM stands as the attacker VMs
+
+## Week Two
+- Created a duplicate Ubuntu 26.04 called victim-ubuntu
+- Renamed other VMs to windows-victim and attacker-kalilinux
+- Network Configuration issues between all 4 VMs 
