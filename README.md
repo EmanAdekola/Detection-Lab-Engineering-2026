@@ -1,6 +1,6 @@
 # Project Overview 
 
-A three-node SIEM lab (Windows 10+ Sysmon, Ubuntu 22.04+ auditd, Kali attacker) that demonstrates end-to-end detection engineering, MITRE-ATT&CK mapping, and a NIST-aligned incident-response playbook. The lab is fully reproducible with one-click setup script and is intended to showcase measurable security impact for SysAdmin / Cybersecurity job applications. 
+A four-node SIEM lab (Windows 10+ Sysmon, Ubuntu 26.04+ auditd x2, Kali attacker) that demonstrates end-to-end detection engineering, MITRE-ATT&CK mapping, and a NIST-aligned incident-response playbook. The lab is fully reproducible with one-click setup script and is intended to showcase measurable security impact for SysAdmin / Cybersecurity job applications. 
 
 ## 🎯 Core Value-Proposition (the 'why' for recruiters) 
 - 92% detection coverage across 15 simulated attacks
@@ -25,7 +25,7 @@ A three-node SIEM lab (Windows 10+ Sysmon, Ubuntu 22.04+ auditd, Kali attacker) 
    └─ (alert examples, dashboards)
 
 ## Quick Start (Install in ≈15min)
-1. Prerequisites - VirtualBox (or VMware Player) + Vagrant (optional)
+1. Prerequisites - VMware Player + Vagrant (optional)
 2. Clone the repo 'git clone https://github.com/EmanAdekola/Detection-Lab-Engineering-2026.git'
 3. Run the setup script 'cd detection-engineering-lab && ./scripts/setup.sh'.
 4. Verify log flow: open Splunk/Elastic UI -> search 'index = *  | stats count by host'.
