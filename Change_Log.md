@@ -15,3 +15,7 @@
 - Created a duplicate Ubuntu 26.04 called victim-ubuntu
 - Renamed other VMs to windows-victim and attacker-kalilinux
 - Network Configuration issues between all 4 VMs 
+
+## Week Three 
+- Downloaded wazuh on all 4 VMs
+- Create NAT network to all download onto all 4 VMs
