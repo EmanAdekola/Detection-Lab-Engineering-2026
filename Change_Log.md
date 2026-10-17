@@ -19,3 +19,10 @@
 ## Week Three 
 - Downloaded wazuh on all 4 VMs
 - Create NAT network to all download onto all 4 VMs
+
+## Week Four 
+- T1105 Ingress Tool Transfer: 4 alerts, level 15, Oct 16 ~ 12:06, attributed to legitimate tool downloads during setup (false-positive-adjacent finding worth nothing)
+- T1082 / T1087 (victim-windows10): 7 alerts, levels 3 / 5 / 9, techniques tagged Account Discovery + PowerShell, no level 12+
+- T1082 / T1087 (victim-ubuntu): 25 alerts, level 3 / 7, tagged Valid Accounts, no level 12+
+- T1059.001 (PowerShell encoded command): confirmed, Oct 17 22:05
+- T1059.003 (PowerShell spawning cmd.exe): confirmed, Oct 17 22:05
